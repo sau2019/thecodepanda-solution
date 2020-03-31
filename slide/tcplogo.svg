@@ -1,0 +1,20 @@
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="102" width="402" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_2" d="m78.44619,11.40648l248.91434,0l0,0c32.60849,0 59.04282,18.35634 59.04282,41.00001c0,22.64367 -26.43435,41 -59.04282,41l-248.91434,0l0,0c-32.60845,0 -59.04283,-18.35633 -59.04283,-41c0,-22.64368 26.43438,-41.00001 59.04283,-41.00001z" stroke-width="1.5" fill="none"/>
+  <path stroke="null" id="svg_3" d="m29.303742,52.19402l0,0c0,-19.60611 18.356319,-35.5 40.999999,-35.5l0,0c10.873874,0 21.302379,3.74017 28.991373,10.39771c7.688994,6.65754 12.008617,15.6871 12.008617,25.10229l0,0c0,19.6061 -18.356319,35.49999 -40.99999,35.49999l0,0c-22.643671,0 -40.999999,-15.89389 -40.999999,-35.49999zm40.999999,-35.5l0,70.99999m-40.999999,-35.49999l81.999989,0" stroke-width="0.5" fill="#00bfbf"/>
+  <text font-weight="bold" stroke="null" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="29" id="svg_4" y="46.992313" x="61.501475" stroke-opacity="null" stroke-width="0" fill="#f4efeb">T</text>
+  <text font-weight="bold" stroke="null" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="29" id="svg_5" y="70.992313" x="50.501475" stroke-opacity="null" stroke-width="0" fill="#f4efeb">C</text>
+  <text font-weight="bold" stroke="null" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="29" id="svg_6" y="46.992313" x="61.501475" stroke-opacity="null" stroke-width="0" fill="#f4efeb">T</text>
+  <text font-weight="bold" stroke="null" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="29" id="svg_7" y="70.992313" x="72.501475" stroke-opacity="null" stroke-width="0" fill="#f4efeb">P</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Euphoria, sans-serif" font-size="35" id="svg_10" y="55.128872" x="112.402716" stroke-width="0" fill="#00fff6" stroke="null">TheCodePanda</text>
+  <text font-style="italic" stroke="null" transform="matrix(0.8094751215560927,0,0,0.6736487374826514,150.3684699824929,24.14188666719035) " xml:space="preserve" text-anchor="start" font-family="'League Gothic', sans-serif" font-size="18" id="svg_11" y="76.968906" x="116.725301" stroke-width="0" fill="#00ffff" font-weight="bold">Solutions</text>
+  <path fill="#f4efef" stroke-width="5" stroke-opacity="null" d="m211.30624,79.79972c-4.38514,0 -7.94169,-3.61745 -7.94169,-8.07766l0,0c0.00264,-3.57975 2.29514,-6.59541 5.46255,-7.65224l0,0c0.10986,-3.04258 2.56385,-5.47127 5.58037,-5.47396l0,0c0.96623,0 1.87291,0.25579 2.66046,0.69603l0,0c1.6757,-2.83392 4.72531,-4.73351 8.217,-4.73486l0,0c5.22431,0.00269 9.47312,4.2475 9.59357,9.53029l0,0c3.12637,1.08241 5.37652,4.08461 5.37917,7.63474l0,0c0,4.46021 -3.55656,8.07766 -7.94169,8.07766l0,0l-21.00975,0l0,0l0.00001,0zm21.97333,-13.3618c-0.67637,-0.12789 -1.1436,-0.75661 -1.07875,-1.45263l0,0c0.02251,-0.23021 0.03574,-0.45235 0.03574,-0.6691l0,0c-0.00926,-3.90286 -3.11314,-7.06122 -6.9503,-7.06661l0,0c-2.97681,-0.00269 -5.50889,1.90902 -6.50027,4.59081l0,0c-0.16149,0.43484 -0.53739,0.7593 -0.99007,0.84815l0,0c-0.45003,0.08885 -0.91859,-0.07001 -1.22699,-0.416l0,0c-0.55062,-0.60986 -1.30508,-0.98413 -2.16146,-0.98413l0,0c-1.62143,0.0027 -2.93313,1.33686 -2.93843,2.98605l0,0c0,0.18309 0.0225,0.37157 0.05957,0.57082l0,0c0.06485,0.35811 -0.01059,0.72699 -0.21575,1.02586l0,0c-0.20516,0.30022 -0.51886,0.49947 -0.86962,0.55736l0,0c-2.51487,0.42138 -4.43676,2.62389 -4.43411,5.29221l0,0c0.00529,2.97393 2.37192,5.37838 5.29578,5.38646l0,0l21.01107,0c2.92387,-0.00808 5.28652,-2.41253 5.29314,-5.38646l0,0c0.00529,-2.63466 -1.8663,-4.81967 -4.32955,-5.28279l0,0" id="svg_32" stroke="null"/>
+ </g>
+</svg>

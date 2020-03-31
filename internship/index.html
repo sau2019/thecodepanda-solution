@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TheCodePanda Solutions</title>
+    <meta name="description" content="">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../images/tcp.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../images/tcp.png">
+
+    <script src="https://kit.fontawesome.com/fc2a06adc8.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="../css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!--Swiper css-->
+    <link rel="stylesheet" href="../swiper/swiper.min.css">
+
+    <style>
+        #header {
+
+            height: 100px;
+            width: 100%;
+            top: 0;
+            background-color: black;
+            border-bottom: 5px solid royalblue;
+
+        }
+
+
+
+        .header-title {
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 800;
+            font-style: bold;
+            margin-left: 100px;
+            margin-top: 40px;
+            color: cornsilk;
+        }
+
+        .marque {
+            background-color: grey;
+            padding: 2px;
+            height: 50px;
+        }
+
+        .marque-text {
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+
+        .banner {
+            top: 0;
+            left: 0;
+            right: 0;
+
+            height: 180vh;
+            width: 100%;
+            background: url('images/practice.jpg');
+            background-attachment: fixed;
+            background-position: scroll;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .banner-context {
+            width: 100%;
+            height: 180vh;
+            background: rgba(0, 0, 0, 0.6);
+
+
+        }
+
+
+
+        .form-area {
+            background: url('../images/world-map.png');
+            background-position: fixed;
+            background-blend-mode: multiply;
+
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .btn-default {
+            padding: 10px;
+            width: 80%;
+            background-color: royalblue;
+            color: white;
+            border: 2px solid grey;
+            border-radius: 10px;
+        }
+
+        .footer-area {
+            padding: 10px;
+            background-color: black;
+            border-top: 2px solid royalblue;
+
+        }
+
+        .footer-text {
+            color: white;
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        .moto {
+            color: white;
+            font-weight: 900;
+            font-size: 30px;
+            width: 60%;
+
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        .swiper-container {
+            width: 80%;
+            height: 30vh;
+            top: 10vh;
+
+        }
+
+        .swiper-slide {
+            text-align: center;
+            background-color: transparent;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .comma {
+            color: royalblue;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            width: 20%;
+            padding: 10px;
+            margin-top: 100px;
+
+            color: white;
+            border-radius: 20px;
+        }
+
+
+
+        .imp-notice {
+            color: white;
+            margin-top: 100px;
+            padding: 20px;
+            width: 80%;
+            background: rgba(51, 51, 51, 0.3);
+            box-shadow: 1px 1px 1px white;
+            border-radius: 20px;
+            margin-left: 10%;
+
+
+
+        }
+
+
+
+        .notice-title {
+            color: yellowgreen;
+            font-size: 25px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 800;
+            padding: 10px;
+            border-bottom: 5px solid royalblue;
+            text-align: center;
+
+        }
+
+        .ol-list {
+            text-indent: 10px;
+
+            font-size: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.5;
+
+
+
+        }
+
+
+
+        .add {
+            color: yellowgreen
+        }
+
+        .ol {
+            padding: 10px;
+        }
+
+        .modal_title {
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            letter-spacing: 1.0;
+        }
+
+        tr {
+            padding: 10px;
+            margin-top: 10px;
+
+        }
+
+        .per_info {
+            color: royalblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22px;
+            letter-spacing: 1.0;
+        }
+
+        label {
+            color: sandybrown;
+            font-weight: bold;
+            font-size: 14px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 1.0;
+        }
+
+        .form-control:focus {
+            border: 2px solid sandybrown;
+            background-color: transparent;
+            color: royalblue;
+            font-weight: bold;
+            letter-spacing: 1.0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .form-control {
+            color: blue;
+
+        }
+
+        .btn-submit {
+            margin-top: 20px;
+            color: white;
+            background-color: royalblue;
+            border: 2px solid grey;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+            padding: 10px;
+            letter-spacing: 1.0;
+            width: 60%;
+        }
+
+        .btn-submit:hover {
+            opacity: 0.8;
+
+        }
+
+        .modal-body {
+            border-radius: 50px;
+            background-color: white;
+
+        }
+
+    </style>
+
+
+    <script>
+
+        function called() {
+
+
+            var flag = true;
+            var c = document.getElementById("regform").innerHTML;
+
+            if (flag) {
+                document.getElementById("showform").innerHTML = c;
+                flag = false;
+
+            }
+            else {
+                document.getElementById("showform").innerHTML = "";
+                flag = true;
+            }
+            alert('hello');
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader-container">
+            <div class="progress-br float shadow">
+                <div class="progress__item"></div>
+            </div>
+        </div>
+    </div>
+    <!-- END LOADER -->
+    <section id="header">
+
+        <div class="row">
+            <div class="col-md-3">
+                <img src="../slide/tcplogo.svg" height="70px" width="200px"
+                    style="margin-top: 25px;padding: 5px;margin-left: 20px; ">
+            </div>
+
+
+            <div class="col-md-9">
+
+                <h1 class="header-title" align="center">
+                    Internship Program
+                </h1>
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+    <section class="marque">
+        <marquee>
+            <p class="marque-text">If You have any query regarding internship, Mail us at:
+                thecodepandabhopal@gmail.com</p>
+        </marquee>
+
+    </section>
+
+
+    <section class="banner">
+
+        <div class="banner-context">
+            <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <span class="comma">
+                            “
+                        </span>
+                        <h2 class="moto" style="color:greenyellow">Do internship from Home</h2>
+                        <span class="comma">
+                            ”
+                        </span>
+
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <span class="comma">
+                            “
+                        </span>
+                        <h2 class="moto" style="color: #00FFF6">Get Industry Oriented Experience</h2>
+                        <span class="comma">
+                            ”
+                        </span>
+
+                    </div>
+
+                    <div class="swiper-slide">
+                        <span class="comma">
+                            “
+                        </span>
+                        <h2 class="moto" style="color: greenyellow;">Get Certificate of Internship</h2>
+                        <span class="comma">
+                            ”
+                        </span>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <span class="comma">
+                            “
+                        </span>
+                        <h2 class="moto" style="color: #00FFF6">What are you waiting for?</h2>
+                        <span class="comma">
+                            ”
+                        </span>
+
+                    </div>
+
+                    <div class="swiper-slide">
+                        <span class="comma">
+                            “
+                        </span>
+                        <h2 class="moto" style="color: greenyellow;">Show Your Potential in this summer</h2>
+                        <span class="comma">
+                            ”
+                        </span>
+                    </div>
+
+
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+            <center>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Apply Now</button>
+
+            </center>
+
+
+
+            <div id="showform">
+                registration form
+
+            </div>
+
+
+
+            <div class="imp-notice">
+                <h2 class="notice-title">Important Instructions for Application form</h2>
+
+
+                <ol type="a" class="ol">
+                    <li class="ol-list">
+                        Fill the form carefully.
+
+                    </li>
+                    <li class="ol-list">
+                        Eligibility: Student must be persuing B.E from any engineering college of india.
+                        MBA student can also apply for internship.
+
+                    </li>
+                    <li class="ol-list">
+                        You have to upload resume and send it to: thecodepandabhopal@gmail.com. The mail subject
+                        will be
+                        "Student_Name(Your Name) Resume".
+
+                    </li>
+                    <li class="ol-list">
+                        After applying internship, you will be called for an interview to our office or through
+                        skype.
+
+                    </li>
+                    <li class="ol-list">
+                        If you get selected in interview, then our team will send you a offer letter to your mail
+                        id.
+
+                    </li>
+
+                    <li class="ol-list">
+                        Internship duration is decided by company, at the time of interview.
+
+                    </li>
+                    <li class="ol-list">
+                        For more details contact us:
+                        <br><span class="add">
+                            TheCodePanda Solutions,
+                            <br>
+                            Near D.I.G Bunglow, Gautam Nagar, Bhopal
+                            <br>
+                            pincode- 462038
+                            <br>
+                            <i class="fas fa-envelope"></i>&nbsp thecodepandabhopal@gmail.com
+
+                        </span>
+
+                    </li>
+                </ol>
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <section class="footer-area">
+        <center>
+            <p class="footer-text">Copyright &copy 2020, TheCodePanda Solutions(Bhopal)</p>
+        </center>
+
+    </section>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="color:#fff;background:royalblue;">
+                    <h3 class="modal_title">Application Form
+                    </h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="color:#DC3545">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form method="POST" action="process/internship_reg.php" >
+                        <table>
+                            <tr>
+                                <h3 class="per_info">Personal Information</h3>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1">
+                                    <div class="form-group">
+                                        <label>First Name</label>
+
+                                        <input type="text" class="form-control" name="fname" required>
+                                    </div>
+                                </td>
+                                <td colspan="1">
+                                    <div class="form-group">
+                                        <label>Middle Name</label>
+                                        <input type="text" class="form-control" name="mname" required>
+                                    </div>
+                                </td>
+                                <td colspan="1">
+                                    <div class="form-group">
+                                        <label>Last Name</label>
+                                        <input type="text" class="form-control" name="lname" required>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="form-group">
+                                        <label>Date of Birth</label>
+                                        <input type="date" class="form-control" name="dob" required>
+
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="1">
+                                    <div class="form-group">
+                                        <label>Select Stream</label>
+                                        <select class="form-control" name="stream" required>
+                                            <option value=""></option>
+                                            <option value="BCA">BCA</option>
+                                            <option value="BBA">BBA</option>
+                                            <option value="B.E"> B.E</option>
+                                            <option value="B.Tech.">B.Tech.</option>
+                                            <option value="MBA">MBA</option>
+                                        </select>
+
+
+                                    </div>
+
+
+                                </td>
+                                <td colspan="1">
+                                    <div class="form-group">
+                                        <label>Branch</label>
+                                        <input type="text" class="form-control" name="branch" placeholder="Branch"
+                                            required>
+                                    </div>
+                                </td>
+                                <td colspan="1">
+                                    <div class="form-group">
+                                        <label>Year of Passing</label>
+                                        <select class="form-control" name="yop" required>
+                                            <option value=""></option>
+                                            <option value="2020">2020</option>
+                                            <option value="2021">2021</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2023">2023</option>
+                                            <option value="2024">2024</option>
+                                            <option value="2025">2025</option>
+
+                                        </select>
+
+
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="3">
+                                    <div class="form-group">
+                                        <label>Mobile No.</label>
+                                        <input type="text" class="form-control" placeholder="8292xxxx77" maxlength="10"
+                                            name="mobile" required>
+
+                                    </div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="form-group">
+                                        <label>Enter your email id.</label>
+                                        <input type="text" class="form-control" placeholder="xyz@gmail.com"
+                                            maxlength="60" name="email" required>
+                                    </div>
+
+
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+                                <td colspan="3">
+                                    <label>Current Address</label>
+                                    <textarea class="form-control" name="c_address" maxlength="200">
+
+                                    </textarea>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <label>Home Address</label>
+                                    <textarea class="form-control" name="h_address" maxlength="200">
+
+                                    </textarea>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <label>Do you have any internship before with any company?if yes then</label>
+                                    <input type="text" class="form-control" placeholder="Company Name(Duration)"
+                                        name="comp_dur">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <label>Do you have any internship before with TheCodePanda?yes/no</label>
+                                    <input type="text" class="form-control" placeholder="yes or no" name="y_no">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <label>What position would you like to prefer in this internship?</label>
+                                    <select class="form-control" name="position" required>
+                                        <option value=""></option>
+                                        <option value="Android App Developer(Front-End)">Android App
+                                            Developer(Front-End)</option>
+                                        <option value="Android App Developer(Back-End)">Android App Developer(Back-End)
+                                        </option>
+                                        <option value="Android App Developer(Full-Stack)">Android App
+                                            Developer(Full-Stack)</option>
+                                        <option value="Business Management">Business Management</option>
+                                        <option value="Content Writer">Content Writer</option>
+                                        <option value="Digital Marketing">Digital Marketing</option>
+                                        <option value="Software Testing">Software Testing</option>
+                                        <option value="UX/UI Designer">UX/UI Designer(Adobe PhotoShop Or any
+                                            wireframing)</option>
+                                        <option value="Website Designer(Front-End)">Website Designer(Front-End)</option>
+                                        <option value="Website Development(Back-End)">Website Development(Back-end)
+                                        </option>
+                                        <option value="Website Development(Full-Stack)">Website Development(Full-Stack)
+                                        </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <label>Upload Your Resume</label>
+                                    <input type="file" class="form-control" name="resume">
+
+                                </td>
+                            </tr>
+
+
+
+
+
+
+                        </table>
+                        <div class="form-group">
+                            <center>
+                                <button class="btn btn-submit" name="submit"> Submit </button>
+
+                            </center>
+
+                        </div>
+
+
+
+
+
+
+
+                    </form>
+                </div>
+                <div class="modal-footer" style="color:#fff;background:royalblue">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ALL JS FILES -->
+    <script src="../js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="../js/custom.js"></script>
+    <script src="../js/timeline.min.js"></script>
+    <script src="../swiper/swiper.min.js"></script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
